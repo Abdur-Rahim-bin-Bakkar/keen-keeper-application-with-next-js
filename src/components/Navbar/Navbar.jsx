@@ -9,8 +9,8 @@ import LinkCompo from '../Links/LinkCompo';
 const Navbar = () => {
 
     return (
-        <div>
-            <div className="navbar bg-base-100 max-w-11/12 mx-auto">
+        <div className='shadow-sm'>
+            <div className="navbar bg-white max-w-11/12 mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -34,15 +34,15 @@ const Call = ({ expectedFriend }) => {
             <h1 className='text-lg font-semibold'>Quick Check-In</h1>
 
             <div className="grid md:grid-cols-3 gap-4 mt-3">
-                <div onClick={handelCall} className="card bg-[#E9E9E930] text-[#1F2937] py-4 text-center">
+                <div onClick={handelCall} className="card bg-[#E9E9E930] text-[#1F2937] py-4 text-center cursor-pointer hover:-translate-y-1">
                     <BiPhoneCall className='text-2xl text-center w-10 mx-auto' />
                     <p className='font-semibold mt-2'>Call</p>
                 </div>
-                <div onClick={handelText} className="card bg-[#E9E9E930] text-[#1F2937] py-4 text-center">
+                <div onClick={handelText} className="card bg-[#E9E9E930] text-[#1F2937] py-4 text-center cursor-pointer hover:-translate-y-1">
                     <LuMessageSquareMore className='text-2xl text-center w-10 mx-auto' />
                     <p className='font-semibold mt-2'>Text</p>
                 </div>
-                <div onClick={handelVideo} className="card bg-[#E9E9E930] text-[#1F2937] py-4 text-center">
+                <div onClick={handelVideo} className="card bg-[#E9E9E930] text-[#1F2937] py-4 text-center cursor-pointer hover:-translate-y-1">
                     <IoMdVideocam className='text-2xl text-center w-10 mx-auto' />
                     <p className='font-semibold mt-2'>Video</p>
                 </div>

@@ -8,7 +8,7 @@ import videImg from '@/assets/video.png'
 import Image from 'next/image';
 
 const CallCard = ({ re }) => {
-    console.log(re)
+    // console.log(re)
     return (
         <div className='card mt-4 p-4 bg-white flex gap-4 justify-start border border-[#E9E9E9] flex-row items-center '>
             {re.type === 'Call' && <Image src={callImg} alt='video image' width={30} height={30}/>}

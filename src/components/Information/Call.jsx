@@ -4,6 +4,7 @@ import React, { useContext } from 'react';
 import { BiPhoneCall } from 'react-icons/bi';
 import { IoMdVideocam } from 'react-icons/io';
 import { LuMessageSquareMore } from 'react-icons/lu';
+import { toast } from 'react-toastify';
 
 const Call = ({ expectedFriend }) => {
     const { record, setRecord } = useContext(providerContext)
@@ -17,17 +18,22 @@ const Call = ({ expectedFriend }) => {
     const handelText = () => {
         const type = 'Text'
         const name = expectedFriend.name
-        setRecord([...record, {type, name, year, day, month,expectedFriend}])
+        setRecord([...record, { type, name, year, day, month, expectedFriend }])
+        toast.success(`Text with ${expectedFriend.name}`)
     }
     const handelVideo = () => {
         const type = 'Video'
         const name = expectedFriend.name
-        setRecord([...record, {type, name, year, day, month,expectedFriend}])
+        setRecord([...record, { type, name, year, day, month, expectedFriend }])
+        toast.success(`Video with ${expectedFriend.name}`)
+
     }
     const handelCall = () => {
         const type = 'Call'
         const name = expectedFriend.name
-        setRecord([...record, {type, name, year, day, month,expectedFriend}])
+        setRecord([...record, { type, name, year, day, month, expectedFriend }])
+        toast.success(`Call with ${expectedFriend.name}`)
+
     }
     return (
         <div className='card bg-white p-4 min-h-50'>

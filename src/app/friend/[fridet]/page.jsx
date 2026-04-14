@@ -23,12 +23,12 @@ const page = () => {
         <div className='bg-[#F8FAFC] '>
 
 
-            <div className="grid md:grid-cols-12 gap-3    max-w-11/12 mx-auto py-15 ">
-                <div className="col-span-4 w-full grid  ">
+            <div className="grid md:grid-cols-12 gap-3    max-w-11/12  mx-auto py-15 ">
+                <div className="col-span-full md:col-span-4  ">
                     <FriendDetCard fri={expectedFriend} />
                     <CardFooter />
                 </div>
-                <div className="col-span-8  space-y-5">
+                <div className="md:col-span-8  space-y-5 ">
 
                     <CardInfo duration={expectedFriend.days_since_contact} goal={expectedFriend.goal} next={expectedFriend.next_due_date} />
 

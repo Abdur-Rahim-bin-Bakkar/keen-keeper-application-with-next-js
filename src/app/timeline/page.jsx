@@ -10,8 +10,8 @@ const TimelinePage = () => {
         const selectedType = e.target.value;
 
         const newRecord = [...record].sort((a, b) => {
-            if (a.type === selectedType && b.type !== selectedType) return -1;
-            if (a.type !== selectedType && b.type === selectedType) return 1;
+            if (a.type === selectedType ) return -1;
+            if (b.type === selectedType ) return 1;
             console.log(selectedType)
             return 0;
         });

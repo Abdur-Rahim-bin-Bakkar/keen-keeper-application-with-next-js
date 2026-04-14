@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌟 KeenKeeper
 
-## Getting Started
+## 📌 Description
 
-First, run the development server:
+KeenKeeper is a modern relationship management web app that helps users keep track of their friends, interactions, and connection status. It allows users to organize meaningful relationships, monitor engagement frequency, and ensure no important connection is neglected.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+* ⚛️ React.js
+* ⚡ Next.js
+* 🎨 Tailwind CSS
+* 📊 Recharts (for data visualization)
+* 🔥 Context API (state management)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Key Features
 
-To learn more about Next.js, take a look at the following resources:
+* 👥 **Friend Management System**
+  Add, categorize, and track your friends with tags like *school, office, gym, etc.*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* 📈 **Interaction Tracking Dashboard**
+  View stats such as total friends, on-track relationships, and pending interactions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* 🔔 **Smart Status Indicators**
+  Easily identify which connections need attention, are overdue, or are on track.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📷 UI Preview
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A clean and responsive dashboard displaying:
+
+* Friend cards with profile, tags, and last interaction time
+* Summary stats (Total Friends, On Track, Need Attention, Interactions)
+* Status badges (On Track, Overdue, Almost Due)
+
+<p align="center">
+  <img src="./src/assets/wev.png" width="800" />
+</p>
+
+---
+
+## 💡 Purpose
+
+This project helps users maintain strong personal and professional relationships by visualizing and managing social interactions efficiently.
+
+---
+
+## 🛠️ Future Improvements
+
+* Authentication system
+* Notifications & reminders
+* Mobile app version
+* Advanced analytics
+
+---
+
+## 📬 Contact
+
+Feel free to connect and give feedback!

@@ -1,5 +1,9 @@
 import Chart from '@/components/Chart/Chart';
 import React, { useContext } from 'react';
+export const metadata = {
+  title: "Communication Stats",
+  description: "my communication application using next js ",
+};
 
 const StatsPage = () => {
     return (

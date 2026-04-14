@@ -14,7 +14,9 @@ const fetchData = fetch('http://localhost:3000/data.json')
 
 const page = () => {
     const id = useParams()
-    console.log(id.fridet)
+    // console.log()
+    console.log( typeof id.fridet)
+    
     const friend = use(fetchData)
     // const {friend, setFriend} = useContext(providerContext)
     const expectedFriend = friend.find(fri => fri.id === Number(id.fridet))
@@ -30,9 +32,9 @@ const page = () => {
                 </div>
                 <div className="md:col-span-8  space-y-5 ">
 
-                    <CardInfo duration={expectedFriend.days_since_contact} goal={expectedFriend.goal} next={expectedFriend.next_due_date} />
+                    <CardInfo duration={expectedFriend?.days_since_contact} goal={expectedFriend?.goal} next={expectedFriend?.next_due_date} />
 
-                    <GoalCard goal={expectedFriend.goal} />
+                    <GoalCard goal={expectedFriend?.goal} />
                     <Call expectedFriend={expectedFriend}/>
 
                 </div>

@@ -9,8 +9,8 @@ const Hero = () => {
             <p className='text-[#64748B] text-center mt-3 max-w-[60%] mx-auto'>Your personal shelf of meaningful connections. Browse, tend, and nurture the
                 relationships that matter most.</p>
 
-            <div className="flex justify-center my-5">
-                <button className='btn bg-[#244D3F] text-white'><FaPlus /> Add a Friend</button>
+            <div className="flex justify-center my-5 ">
+                <button className='btn bg-[#244D3F] text-white hover:-translate-y-1 duration-700'><FaPlus /> Add a Friend</button>
             </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-9 border-b pb-8 border-[#E9E9E9]">

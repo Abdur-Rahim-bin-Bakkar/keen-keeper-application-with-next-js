@@ -4,7 +4,7 @@ import React from 'react';
 const FriendDetCard = ({ fri }) => {
     return (
         <div>
-            <div className='card p-4 bg-white text-center space-y-3 w-full py-5'>
+            <div className='card p-4 bg-white text-center space-y-3 w-full py-5  '>
 
                 <Image src={fri.picture} alt='friend picture' width={100} height={100} className='w-25 mx-auto rounded-full ' />
                 <h1 className='text-xl font-bold'>{fri.name}</h1>

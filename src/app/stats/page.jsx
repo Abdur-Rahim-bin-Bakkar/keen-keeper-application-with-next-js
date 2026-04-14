@@ -1,9 +1,13 @@
-import React from 'react';
+import Chart from '@/components/Chart/Chart';
+import React, { useContext } from 'react';
 
 const StatsPage = () => {
     return (
-        <div>
-            <h1>hi this is stats page</h1>
+        <div className='bg-[#F8FAFC]  py-15'>
+            <div className="max-w-11/12 mx-auto">
+                <h1 className='text-3xl font-bold'>Friendship Analytics</h1>
+                <Chart/>
+            </div>
         </div>
     );
 };
